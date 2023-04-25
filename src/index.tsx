@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client';
-import { App } from './App';
-import { GlobalStyle } from './GlobalStyle';
+import { App } from './components/App/App';
+import { GlobalStyle } from './components/GlobalStyle/GlobalStyle';
 
 declare let window: any;
 declare let device: any;
